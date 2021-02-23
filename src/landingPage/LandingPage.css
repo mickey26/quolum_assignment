@@ -1,0 +1,93 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.boxDark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-color: black;
+}
+
+.resultBox {
+  width: 413px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 40px;
+  border: 0.8px solid grey;
+  padding-right: 10px;
+  background-color: #ffff;
+}
+.navBarBox {
+  width: 403px;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  border: 0.8px solid grey;
+  padding-right: 10px;
+  background-color: #ffff;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+.navBarBoxDark {
+  width: 403px;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  border: 0.8px solid grey;
+  padding-right: 10px;
+  justify-content: space-between;
+  padding-left: 10px;
+  background-color: #666;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 425px;
+}
+.gridContainerDark {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 425px;
+}
+
+.gridItems {
+  background-color: #f0f0f0;
+  border: 0.5px solid grey;
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+}
+.gridItemsDark {
+  background-color: #666;
+  border: 0.5px solid grey;
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+.buttonContainer {
+  display: flex;
+}
+.buttonContainer1 {
+  cursor: pointer;
+  padding: 5px;
+  border: 1px solid grey;
+}
+.buttonContainer2 {
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid grey;
+}
